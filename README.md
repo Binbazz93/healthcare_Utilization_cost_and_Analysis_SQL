@@ -44,8 +44,8 @@ FROM encounters e
 JOIN patients p ON e.PATIENT = p.Id
 GROUP BY p.CITY
 ORDER BY avg_claim_cost DESC;
-
-## **Insight 2: Payer Coverage vs Total Claim Cost
+-
+##**Insight 2: Payer Coverage vs Total Claim Cost
 SELECT 
     pay.name AS payer_name,
     ROUND(AVG(e.PAYER_COVERAGE / NULLIF(e.TOTAL_CLAIM_COST, 0)), 2) AS avg_coverage_ratio,
