@@ -1,4 +1,4 @@
-🏥 Healthcare Cost & Utilization Analysis Using PostgreSQL
+ Healthcare Cost & Utilization Analysis Using PostgreSQL
 Executive Summary
 This project explores patient encounter and cost data from a synthetic healthcare database using PostgreSQL. The goal was to uncover cost trends, utilization patterns, and payer distributions to guide data-driven decisions in healthcare management. Through SQL-based analysis and data visualization, we identified cost disparities across cities, patient demographics, and healthcare organizations.
 
@@ -21,7 +21,8 @@ Data Cleaning and Transformation
 Analytical Storytelling and Insight Communication
 Healthcare Data Analysis
 Results & Insights
-🩺 Insight 1: Average Encounter Cost by City
+
+ Insight 1: Average Encounter Cost by City
 SELECT p.CITY,
        ROUND(AVG(e.TOTAL_CLAIM_COST), 2) AS avg_claim_cost
 FROM encounters e
@@ -32,7 +33,7 @@ Observation: Cities with higher average claim costs indicate potential inefficie
 
 Visualization: Average Encounter Cost by City
 
-💳 Insight 2: Payer Coverage vs Total Claim Cost
+ Insight 2: Payer Coverage vs Total Claim Cost
 SELECT p.CITY,
        ROUND(AVG(e.PAYER_COVERAGE), 2) AS avg_coverage,
        ROUND(AVG(e.TOTAL_CLAIM_COST), 2) AS avg_claim
@@ -44,7 +45,7 @@ Observation: Some cities show a gap between claim costs and payer coverage, sign
 
 Visualization: Payer Coverage vs Total Claim Cost
 
-🧾 Insight 3: Encounter Class Distribution
+ Insight 3: Encounter Class Distribution
 SELECT ENCOUNTERCLASS,
        COUNT(*) AS total_encounters,
        ROUND(AVG(TOTAL_CLAIM_COST), 2) AS avg_cost
@@ -55,7 +56,7 @@ Observation: Outpatient and emergency encounters account for the largest volume,
 
 Visualization: Encounter Class Distribution
 
-🏢 Insight 4: Cost Variation by Organization
+ Insight 4: Cost Variation by Organization
 SELECT ORGANIZATION,
        ROUND(AVG(TOTAL_CLAIM_COST), 2) AS avg_claim_cost,
        ROUND(SUM(TOTAL_CLAIM_COST), 2) AS total_claim_cost
@@ -66,7 +67,7 @@ Observation: Some organizations consistently report higher average claim costs, 
 
 Visualization: Cost Variation by Organization
 
-🧬 Insight 5: Most Common Procedures by City
+ Insight 5: Most Common Procedures by City
 SELECT p.CITY,
        pr.DESCRIPTION,
        COUNT(pr.CODE) AS procedure_count,
