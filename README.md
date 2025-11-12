@@ -1,6 +1,6 @@
-**Healthcare Cost & Utilization Analysis Using PostgreSQL**
+## **Healthcare Cost & Utilization Analysis Using PostgreSQL**
 
-**Executive Summary**
+## **Executive Summary**
 
 This project analyzes patient encounter and cost data from a synthetic healthcare dataset using PostgreSQL.
 
@@ -9,7 +9,7 @@ The goal was to surface cost drivers, utilization patterns, and payer behavior t
 Using SQL for extraction and aggregation and visualizations for storytelling, the analysis highlights city-level cost disparities, payer coverage patterns, encounter-class volumes, organization-level cost variation, and frequent procedures by city.
 
 
-**Business Problem**
+##**Business Problem**
 
 Healthcare administrators and payers need to understand:
 
@@ -24,7 +24,7 @@ Healthcare administrators and payers need to understand:
 This analysis helps identify where to target cost-control, payer negotiations, capacity planning, and further quality analyses.
 
 
-**Methodology**
+##**Methodology**
 
 Database design: Four relational tables — patients, encounters, procedures, and payers — were created and normalized.
 
@@ -46,7 +46,7 @@ Visualization: Query outputs exported and plotted (PNG) for inclusion in the REA
 Business interpretation and recommendations for healthcare stakeholders
 
 
-**Results & Insight**
+## **Results & Insight**
 ![Graph Visualiser Insight 1](images/graph_visualiser-Insight 1.png)
 
  **Insight 1 — Average Encounter Cost by City**
