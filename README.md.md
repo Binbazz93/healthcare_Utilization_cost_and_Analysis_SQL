@@ -36,6 +36,8 @@ This analysis aims to answer critical questions such as:
 
 ## **Results & Insights**
 
+<img src = "Images/graph_visualiser-Insight 1.png">
+
 ### 🩺 **Insight 1: Average Encounter Cost by City**
 ```sql
 SELECT p.CITY,
