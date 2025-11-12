@@ -47,7 +47,7 @@ Business interpretation and recommendations for healthcare stakeholders
 
 
 ## **Results & Insight**
-![Graph Visualiser Insight](https://github.com/Binbazz93/healthcare_Utilization_cost_and_Analysis_SQL/blob/main/graph_visualiser-Insight%201.png)
+![Graph Visualiser Insight 1](Images/graph_visualiser-Insight 1.png)
 
  **Insight 1 — Average Encounter Cost by City**
 
