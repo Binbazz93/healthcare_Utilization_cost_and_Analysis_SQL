@@ -7,8 +7,9 @@ This project analyzes patient encounter and cost data from a synthetic healthcar
 The goal was to surface cost drivers, utilization patterns, and payer behavior to inform operational and financial decisions.
 
 Using SQL for extraction and aggregation and visualizations for storytelling, the analysis highlights city-level cost disparities, payer coverage patterns, encounter-class volumes, organization-level cost variation, and frequent procedures by city.
-**
-Business Problem**
+
+
+**Business Problem**
 
 Healthcare administrators and payers need to understand:
 
@@ -22,6 +23,7 @@ Healthcare administrators and payers need to understand:
 
 This analysis helps identify where to target cost-control, payer negotiations, capacity planning, and further quality analyses.
 
+
 **Methodology**
 
 Database design: Four relational tables — patients, encounters, procedures, and payers — were created and normalized.
@@ -32,6 +34,7 @@ SQL analysis: Key metrics computed using JOINs, GROUP BY, aggregate functions, a
 
 Visualization: Query outputs exported and plotted (PNG) for inclusion in the README and portfolio.
 
+
 **Skills Demonstrated**
 
 -PostgreSQL: joins, aggregations, NULL-safe arithmetic, grouping, 
@@ -41,8 +44,10 @@ Visualization: Query outputs exported and plotted (PNG) for inclusion in the REA
 -Visualization and presentation of findings (PNG charts)
 
 Business interpretation and recommendations for healthcare stakeholders
-**
-Results & Insights**
+
+
+**Results & Insight**
+![Graph Visualiser Insight 1](images/graph_visualiser-Insight 1.png)
 
  **Insight 1 — Average Encounter Cost by City**
 
