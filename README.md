@@ -49,6 +49,7 @@ Business interpretation and recommendations for healthcare stakeholders
 ## **Results & Insight**
 ![Average Encounter Charts](Average_Encounter.png)
 
+
  **Insight 1 — Average Encounter Cost by City**
 
 ```SQL Query
@@ -64,6 +65,7 @@ WHERE e.TOTAL_CLAIM_COST IS NOT NULL
 GROUP BY p.CITY
 ORDER BY avg_total_claim_cost DESC;
 ```
+
 
 
 ## **Observation**
