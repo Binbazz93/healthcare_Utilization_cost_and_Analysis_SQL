@@ -140,9 +140,11 @@ ORDER BY avg_claim_cost DESC;
 ## **Observation**
 Some organizations show consistently higher average claim costs — possibly due to specialization (e.g., tertiary care), different billing practices, or patient severity mix. These organizations are candidates for cost benchmarking and targeted reviews.
 
-(Visualization Placeholder: PNG chart goes here)
 
 ## **Insight 5 — Most Common Procedures by City**
+
+![Most Common Procedues](Most_Common_Pro.png)
+
 
 ```SQL Query
 
