@@ -72,9 +72,11 @@ ORDER BY avg_total_claim_cost DESC;
 
 City-level averages reveal substantial variation in encounter costs. High average-cost cities may indicate specialized care centers, higher operational costs, or pricing differences — and merit deeper investigation into payer mix and case complexity.
 
-Visualization Placeh
+![Visual Insight](Cost_coverage_Ratio.png)
 
 ## **Insight 2 — Cost Coverage Ratio by Payer**
+
+
 
 ```SQL Query
 
@@ -89,6 +91,7 @@ WHERE e.PAYER_COVERAGE IS NOT NULL
 GROUP BY pay.name
 ORDER BY avg_coverage_ratio DESC;
 ```
+
 
 ## **Observation**
 Payers differ significantly in how much of total claim costs they cover on average. Payers with low average coverage increase patient out-of-pocket burden and may correlate with higher unpaid claims.
