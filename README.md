@@ -72,10 +72,11 @@ ORDER BY avg_total_claim_cost DESC;
 
 City-level averages reveal substantial variation in encounter costs. High average-cost cities may indicate specialized care centers, higher operational costs, or pricing differences — and merit deeper investigation into payer mix and case complexity.
 
-![Visual Insight](Cost_coverage_Ratio.png)
+
 
 ## **Insight 2 — Cost Coverage Ratio by Payer**
 
+![Visual Insight](Cost_coverage_Ratio.png)
 
 
 ```SQL Query
@@ -99,6 +100,7 @@ Payers differ significantly in how much of total claim costs they cover on avera
 (Visualization Placeholder: PNG chart goes here)
 
 ## **Insight 3 — Encounter Class Distribution (Volume vs Cost)**
+
 ![Volume VS Cost](Volume_VS_Cost.png)
 
 
