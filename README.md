@@ -47,7 +47,7 @@ Business interpretation and recommendations for healthcare stakeholders
 
 
 ## **Results & Insight**
-<img src= "images/graph_visualiser-Insight 1.png">
+![Average Encounter Charts](Images/graph_visualiser-Insight 1.png)
 
  **Insight 1 — Average Encounter Cost by City**
 
