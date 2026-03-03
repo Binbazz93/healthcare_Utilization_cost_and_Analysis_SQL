@@ -118,9 +118,12 @@ ORDER BY total_encounters DESC;
 ## **Observation**
 Outpatient and emergency encounters typically account for the largest volume, while certain encounter classes (e.g., inpatient, surgical) have much higher average costs per encounter. This distinction is vital for capacity and budget planning.
 
-(Visualization Placeholder: PNG chart goes here)
+
 
 ## **Insight 4 — Cost Variation by Organization**
+
+![Cost Variation by Organizzzation](Cost_Variation_Organization.png)
+
 
 ```SQL
 
