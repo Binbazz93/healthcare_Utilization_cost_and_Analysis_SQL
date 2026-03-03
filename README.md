@@ -99,8 +99,11 @@ Payers differ significantly in how much of total claim costs they cover on avera
 (Visualization Placeholder: PNG chart goes here)
 
 ## **Insight 3 — Encounter Class Distribution (Volume vs Cost)**
+![Volume VS Cost](Volume_VS_Cost.png)
 
-SQL Query
+
+
+```SQL Query
 
 SELECT 
     ENCOUNTERCLASS,
@@ -109,6 +112,7 @@ SELECT
 FROM encounters
 GROUP BY ENCOUNTERCLASS
 ORDER BY total_encounters DESC;
+```
 
 
 ## **Observation**
